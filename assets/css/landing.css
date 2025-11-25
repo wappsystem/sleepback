@@ -97,14 +97,22 @@ body{background-size: cover; background-repeat: repeat-x; background-position: c
       color: #fff;
       pointer-events: none;
   }
+  .full_page{
+    height:385px
+  }
   @media (max-width: 768px) {
     body{
       height:auto;
+      br{display:none}
+      
     }
     .grid-container-2 {
       grid-template-columns: auto;
       text-align: center;
     }
+  .full_page{
+    height:0;
+  }
 
   }
   
